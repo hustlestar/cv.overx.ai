@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Ma - AI/ML Platform Engineer</title>
+    <meta name="description" content="Senior AI/ML Platform Engineer with expertise in machine learning, data engineering, and modern AI agent development. 8+ years of experience building scalable platforms.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cv.overx.ai">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Jack Ma - AI/ML Platform Engineer">
+    <meta property="og:description" content="Senior AI/ML Platform Engineer specializing in machine learning platforms, data engineering, and AI agents.">
+    <meta property="og:url" content="https://cv.overx.ai">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --text: #1a1a1a;
+            --text-light: #6b7280;
+            --bg: #ffffff;
+            --bg-light: #f9fafb;
+            --border: #e5e7eb;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+        
+        .header-left h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+        
+        .header-left h2 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .location {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+        
+        .contact-info {
+            text-align: right;
+        }
+        
+        .contact-info a {
+            display: block;
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+            transition: color 0.2s;
+        }
+        
+        .contact-info a:hover {
+            color: var(--primary);
+        }
+        
+        /* Summary */
+        .summary {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+            color: var(--text);
+        }
+        
+        /* Skills */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .skill-group h3 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .skill-group ul {
+            list-style: none;
+        }
+        
+        .skill-group li {
+            font-size: 0.9rem;
+            color: var(--text);
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Experience */
+        .section {
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .section-title::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+        
+        .experience-item {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .experience-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        
+        .experience-header {
+            margin-bottom: 0.75rem;
+        }
+        
+        .experience-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text);
+            display: inline;
+        }
+        
+        .company {
+            font-size: 1rem;
+            color: var(--primary);
+            display: inline;
+            margin-left: 0.5rem;
+        }
+        
+        .experience-meta {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            display: inline;
+            margin-left: 0.5rem;
+        }
+        
+        .duration {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            display: inline;
+            margin-left: 0.5rem;
+        }
+        
+        .duration::before {
+            content: "•";
+            margin-right: 0.5rem;
+            color: var(--border);
+        }
+        
+        .experience-content {
+            font-size: 0.95rem;
+            color: var(--text);
+            margin-bottom: 0.75rem;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        
+        .tech-tag {
+            padding: 0.25rem 0.75rem;
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            font-size: 0.8rem;
+            color: var(--text);
+        }
+        
+        /* Education */
+        .education-item {
+            margin-bottom: 0.75rem;
+        }
+        
+        .education-degree {
+            font-weight: 600;
+            color: var(--text);
+            display: inline;
+        }
+        
+        .education-school {
+            color: var(--primary);
+            font-size: 0.95rem;
+            display: inline;
+            margin-left: 0.5rem;
+        }
+        
+        .education-date {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            display: inline;
+            margin-left: 0.5rem;
+        }
+        
+        .education-date::before {
+            content: "•";
+            margin-right: 0.5rem;
+            color: var(--border);
+        }
+        
+        /* Languages */
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .language-name {
+            font-weight: 500;
+        }
+        
+        .language-level {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                font-size: 10pt;
+                line-height: 1.3;
+            }
+            
+            .container {
+                max-width: 100%;
+                padding: 0;
+            }
+            
+            header {
+                margin-bottom: 0.5rem;
+                padding-bottom: 0.5rem;
+            }
+            
+            .header-left h1 {
+                font-size: 20pt;
+                margin-bottom: 0.1rem;
+            }
+            
+            .header-left h2 {
+                font-size: 12pt;
+                margin-bottom: 0.1rem;
+            }
+            
+            .summary {
+                padding: 0.5rem;
+                margin-bottom: 0.75rem;
+                font-size: 9.5pt;
+            }
+            
+            .skills {
+                display: grid !important;
+                grid-template-columns: repeat(3, 1fr) !important;
+                margin-bottom: 0.75rem;
+                gap: 0.75rem;
+            }
+            
+            .skill-group h3 {
+                font-size: 9pt;
+                margin-bottom: 0.25rem;
+            }
+            
+            .skill-group li {
+                font-size: 9pt;
+                margin-bottom: 0.1rem;
+            }
+            
+            .section {
+                margin-bottom: 0.75rem;
+            }
+            
+            .section-title {
+                font-size: 12pt;
+                margin-bottom: 0.5rem;
+                page-break-after: avoid;
+            }
+            
+            .experience-item {
+                margin-bottom: 0.75rem;
+                padding-bottom: 0.75rem;
+                page-break-inside: avoid;
+            }
+            
+            .experience-header {
+                margin-bottom: 0.5rem;
+            }
+            
+            .experience-title {
+                font-size: 10.5pt;
+            }
+            
+            .company, .experience-meta, .duration {
+                font-size: 9.5pt;
+            }
+            
+            .experience-content {
+                font-size: 9pt;
+                margin-bottom: 0.5rem;
+            }
+            
+            .tech-tag {
+                padding: 0.05rem 0.3rem;
+                font-size: 8pt;
+            }
+            
+            .tech-stack {
+                margin-top: 0.5rem;
+            }
+            
+            .education-item {
+                margin-bottom: 0.5rem;
+            }
+            
+            .education-degree,
+            .education-school,
+            .education-date {
+                font-size: 9.5pt;
+            }
+            
+            .language-grid {
+                gap: 0.5rem;
+            }
+            
+            .language-item {
+                font-size: 9pt;
+            }
+            
+            .print-button {
+                display: none !important;
+            }
+            
+            a {
+                color: var(--text) !important;
+                text-decoration: none !important;
+            }
+        }
+        
+        /* Mobile */
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .contact-info {
+                text-align: left;
+            }
+            
+            .skills {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .experience-header {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .duration {
+                text-align: left;
+            }
+            
+            .language-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Print button */
+        .print-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .print-button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+        }
+        
+        .print-icon {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1>Jack Ma</h1>
+                <h2>AI/ML Platform Engineer</h2>
+                <div class="location">📍 Georgia (Previously: Minsk, Belarus)</div>
+            </div>
+            <div class="contact-info">
+                <a href="tel:+375297782178">+375 29 778 2178</a>
+                <a href="mailto:yauheni.malashchytski@gmail.com">yauheni.malashchytski@gmail.com</a>
+                <a href="https://www.linkedin.com/in/jack-mal" target="_blank">linkedin.com/in/jack-mal</a>
+            </div>
+        </header>
+        
+        <section class="summary">
+            Engineer with diverse skills in Data, Machine Learning, Frontend and Backend, who has passion for automation and templating. Specialized in building state-of-the-art ML platforms and AI agent development.
+        </section>
+        
+        <section class="skills">
+            <div class="skill-group">
+                <h3>AI/ML & Agents</h3>
+                <ul>
+                    <li>AI Agents</li>
+                    <li>LangChain, LlamaIndex</li>
+                    <li>OpenAI API</li>
+                    <li>vLLM Framework</li>
+                    <li>MLFlow, Kubeflow</li>
+                    <li>AutoML Systems</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Data & Backend</h3>
+                <ul>
+                    <li>Apache Spark, PySpark</li>
+                    <li>Python, Java, Scala</li>
+                    <li>Spring Boot, JPA</li>
+                    <li>Kafka, Airflow</li>
+                    <li>Docker, Kubernetes</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Cloud & Tools</h3>
+                <ul>
+                    <li>Azure (DataBricks, Cosmos)</li>
+                    <li>Elasticsearch, Kibana</li>
+                    <li>Delta Lake, Hive</li>
+                    <li>TypeScript, Angular</li>
+                    <li>GitOps, CI/CD</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">ML Technical Leader / Senior ML Platform Engineer</span>
+                    <span class="company">@ Playtika</span>
+                    <span class="duration" data-start="2020-02-01">Feb 2020 - Present</span>
+                </div>
+                <div class="experience-content">
+                    Currently serving as ML Technical Leader. Built a state-of-the-art Machine Learning Platform that automates work for Data Scientists and ML Engineers. 
+                    Developed AI agents for automated ML workflows and intelligent decision-making. Platform provides superior UX compared to MLFlow/Kubeflow 
+                    with features including scheduled feature collection, real-time serving, AutoML capabilities, model tracking, and unified API for REST/Streaming/Batch predictions.
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Spring</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Kubeflow</span>
+                    <span class="tech-tag">MLFlow</span>
+                    <span class="tech-tag">Docker/K8s</span>
+                    <span class="tech-tag">Kafka</span>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Senior Big Data Engineer</span>
+                    <span class="company">@ ITRex Group</span>
+                    <span class="experience-meta">(Walmart)</span>
+                    <span class="duration" data-start="2019-04-01" data-end="2020-01-31">Apr 2019 - Jan 2020</span>
+                </div>
+                <div class="experience-content">
+                    Built data-driven application for 360-degree organizational data view. Designed and implemented 
+                    petabyte-scale Data Lake with high-quality data pipelines, enabling lightning-fast queries with minimal resources.
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">PySpark</span>
+                    <span class="tech-tag">Azure DataBricks</span>
+                    <span class="tech-tag">Delta Lake</span>
+                    <span class="tech-tag">CosmosDB</span>
+                    <span class="tech-tag">EventHub</span>
+                    <span class="tech-tag">Airflow</span>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="experience-title">Big Data Engineer</span>
+                    <span class="company">@ EPAM Systems</span>
+                    <span class="experience-meta">(Coca-Cola, Sephora)</span>
+                    <span class="duration" data-start="2016-09-01" data-end="2019-04-30">Sep 2016 - Apr 2019</span>
+                </div>
+                <div class="experience-content">
+                    Built analytical data platforms processing 200+ daily ETL jobs. Implemented CI/CD testing framework, 
+                    performance optimization for data pipelines, and Azure Blob Storage integration. Created custom parsers 
+                    and UDFs for complex data transformations.
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">Apache Spark</span>
+                    <span class="tech-tag">Hive</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Azure</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <span class="education-degree">B.S. Computer Science</span>
+                <span class="education-school">Belarusian State University</span>
+                <span class="education-date">2016 - 2018</span>
+            </div>
+            <div class="education-item">
+                <span class="education-degree">B.S. Civil Engineering</span>
+                <span class="education-school">Belarusian National Technical University</span>
+                <span class="education-date">2009 - 2014</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2 class="section-title">Languages & Certifications</h2>
+            <div class="language-grid">
+                <div class="language-item">
+                    <span class="language-name">English</span>
+                    <span class="language-level">Full Professional</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Russian</span>
+                    <span class="language-level">Native</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Spanish</span>
+                    <span class="language-level">Limited Working</span>
+                </div>
+            </div>
+            <div class="tech-stack" style="margin-top: 1rem;">
+                <span class="tech-tag">Docker for Java Developers</span>
+                <span class="tech-tag">Elasticsearch Essential</span>
+                <span class="tech-tag">Cloud Architecture</span>
+                <span class="tech-tag">HBase Essential</span>
+                <span class="tech-tag">Spring Boot</span>
+            </div>
+        </section>
+    </div>
+    
+    <button class="print-button" onclick="window.print()">
+        <svg class="print-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+        </svg>
+        Save as PDF
+    </button>
+    
+    <script>
+        // Auto-calculate duration for all positions
+        function calculateDuration(startDate, endDate = null) {
+            const start = new Date(startDate);
+            const end = endDate ? new Date(endDate) : new Date();
+            
+            const years = end.getFullYear() - start.getFullYear();
+            const months = end.getMonth() - start.getMonth();
+            
+            let totalMonths = years * 12 + months + 1; // Add 1 month as requested
+            const calcYears = Math.floor(totalMonths / 12);
+            const calcMonths = totalMonths % 12;
+            
+            let duration = '';
+            if (calcYears > 0) {
+                duration += calcYears + ' year' + (calcYears > 1 ? 's' : '');
+            }
+            if (calcMonths > 0) {
+                if (duration) duration += ' ';
+                duration += calcMonths + ' month' + (calcMonths > 1 ? 's' : '');
+            }
+            
+            return duration;
+        }
+        
+        // Update durations on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const durationElements = document.querySelectorAll('.duration[data-start]');
+            durationElements.forEach(element => {
+                const startDate = element.getAttribute('data-start');
+                const endDate = element.getAttribute('data-end');
+                const currentText = element.textContent;
+                const basePart = currentText.split(' (')[0]; // Handle existing duration text
+                const calculatedDuration = calculateDuration(startDate, endDate);
+                
+                if (endDate) {
+                    // Past position
+                    element.textContent = basePart + ' (' + calculatedDuration + ')';
+                } else {
+                    // Current position
+                    element.textContent = basePart + ' (' + calculatedDuration + ')';
+                }
+            });
+        });
+        
+        // Structured Data
+        const structuredData = {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Jack Ma",
+            "jobTitle": "ML Technical Leader / AI Platform Engineer",
+            "email": "yauheni.malashchytski@gmail.com",
+            "telephone": "+375297782178",
+            "url": "https://www.linkedin.com/in/jack-mal",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GE"
+            },
+            "alumniOf": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Belarusian State University"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Belarusian National Technical University"
+                }
+            ],
+            "knowsAbout": [
+                "Machine Learning",
+                "AI Agents",
+                "LangChain",
+                "Data Engineering",
+                "Cloud Architecture",
+                "MLOps"
+            ],
+            "knowsLanguage": ["en", "ru", "es"]
+        };
+        
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.text = JSON.stringify(structuredData);
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>

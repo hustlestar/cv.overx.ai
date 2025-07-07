@@ -1,0 +1,12 @@
+{
+  "name": "@overx-ai/cv",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes http-server . -p 3002 -c-1 -o",
+    "build": "echo 'Static site - no build required'",
+    "start": "npx --yes http-server . -p 3002",
+    "lint": "echo 'No linting for static site'",
+    "type-check": "echo 'No type checking for static site'"
+  }
+}
