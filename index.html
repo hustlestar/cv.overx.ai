@@ -15,11 +15,118 @@
     <meta property="og:title" content="Yauheni Malashchytski - AI/ML Platform Engineer">
     <meta property="og:description" content="Senior AI/ML Platform Engineer specializing in machine learning platforms, data engineering, and AI agents.">
     <meta property="og:url" content="https://cv.overx.ai">
-    
+    <meta property="og:image" content="https://cv.overx.ai/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="OverX AI">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yauheni Malashchytski - AI/ML Platform Engineer">
+    <meta name="twitter:description" content="Senior AI/ML Platform Engineer specializing in machine learning platforms, data engineering, and AI agents.">
+    <meta name="twitter:image" content="https://cv.overx.ai/og-image.jpg">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "dateCreated": "2024-01-01T00:00:00+00:00",
+        "dateModified": "2026-04-16T00:00:00+00:00",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Yauheni Malashchytski",
+            "jobTitle": "ML Technical Leader / AI Platform Engineer",
+            "email": "yauheni.malashchytski@gmail.com",
+            "telephone": "+375297782178",
+            "url": "https://cv.overx.ai",
+            "sameAs": [
+                "https://www.linkedin.com/in/jack-mal"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GE",
+                "addressLocality": "Georgia"
+            },
+            "alumniOf": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Belarusian State University",
+                    "url": "https://bsu.by"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Belarusian National Technical University",
+                    "url": "https://bntu.by"
+                }
+            ],
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Playtika",
+                "url": "https://www.playtika.com"
+            },
+            "knowsAbout": [
+                "Machine Learning",
+                "AI Agents",
+                "LangChain",
+                "LlamaIndex",
+                "Data Engineering",
+                "Cloud Architecture",
+                "MLOps",
+                "Apache Spark",
+                "Kubernetes",
+                "Python",
+                "Java"
+            ],
+            "knowsLanguage": [
+                {
+                    "@type": "Language",
+                    "name": "English",
+                    "alternateName": "en"
+                },
+                {
+                    "@type": "Language",
+                    "name": "Russian",
+                    "alternateName": "ru"
+                },
+                {
+                    "@type": "Language",
+                    "name": "Spanish",
+                    "alternateName": "es"
+                }
+            ],
+            "hasCredential": [
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Docker for Java Developers"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Elasticsearch Essential"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Cloud Architecture"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "HBase Essential"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Spring Boot"
+                }
+            ]
+        }
+    }
+    </script>
     
     <style>
         * {
@@ -677,44 +784,6 @@
             });
         });
         
-        // Structured Data
-        const structuredData = {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Yauheni Malashchytski",
-            "jobTitle": "ML Technical Leader / AI Platform Engsgineer",
-            "email": "yauheni.malashchytski@gmail.com",
-            "telephone": "+375297782178",
-            "url": "https://www.linkedin.com/in/jack-mal",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "GE"
-            },
-            "alumniOf": [
-                {
-                    "@type": "EducationalOrganization",
-                    "name": "Belarusian State University"
-                },
-                {
-                    "@type": "EducationalOrganization",
-                    "name": "Belarusian National Technical University"
-                }
-            ],
-            "knowsAbout": [
-                "Machine Learning",
-                "AI Agents",
-                "LangChain",
-                "Data Engineering",
-                "Cloud Architecture",
-                "MLOps"
-            ],
-            "knowsLanguage": ["en", "ru", "es"]
-        };
-        
-        const script = document.createElement('script');
-        script.type = 'application/ld+json';
-        script.text = JSON.stringify(structuredData);
-        document.head.appendChild(script);
     </script>
 </body>
 </html>
